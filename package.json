@@ -6,9 +6,14 @@
     "test": "eslint . && mocha *.spec.js"
   },
   "dependencies": {
+    "bluebird": "3.5.0",
+    "buffer": "5.0.6",
     "eslint": "3.7.0",
     "eslint-config-hrundel": "latest",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
     "mocha": "3.1.0",
-    "nock": "9.0.2"
+    "nock": "9.0.2",
+    "request": "2.81.0"
   }
 }
